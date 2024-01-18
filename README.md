@@ -1,13 +1,14 @@
 # AWS CLI MFA Automation for WSLv2 with 1Password CLI
 > This project started due to limitations of 1Password, WSL, and AWS CLI when requiring AWS CLI MFA authetication. Currently 1Password CLI in WSL does not work with plugins due to WSL not having access to the Windows Hello Authentication that is required for plugins in the 1Password App.  This script improves security of AWS CLI in WSL by using external MFA that is kept secret durring authetication, avoids permanently storing 1Password secrets and MFA codes in env variables. 
 
-# Highlight details
+# Highlights
 - calls PowerShell from WSL to temporarily store the OTP MFA code in a variable.
 - Using PowerShell from WSL by passes the limitation and correctly prompts for a windows hello authetication to access the Secret Reference.
 - The PS Session is transient. It exits automatically when called by script and ensures no secrets are stored permanently in env variables.
 - stores 1pw MFA code in a Bash accessible variable that can be inserted into AWS CLI commands.  
 - calls get-session token to retreive temporary credentials for aws cli sessions
 - stores the temporary AWS Session credentials in the AWS CLI credentials profile for AWS CLI to use.
+- Requires MFA (mine uses biometrics so there is no way someone could run this without my finger)
 
 # Requirements and First Steps
 - Windows Hello Authentication needs to be configured in Windows.
