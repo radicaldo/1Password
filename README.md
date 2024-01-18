@@ -32,8 +32,14 @@
    - Download 1Password for Windows - https://1password.com/downloads/windows/?msclkid=cf0ab159737f1e5556d6d4f0d9b267ee
    - Setup 1Password CLI in Windows - https://developer.1password.com/docs/cli/get-started
    - Secret references - https://developer.1password.com/docs/cli/secret-references/
+  
 
 3. AWS CLI to install in WSL
    - Install - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions
    - AWS CLI configuration - https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
    - Helpful article for information on the original script.  https://www.packetmischief.ca/2023/02/26/how-i-use-mfa-with-the-aws-cli/
+
+
+Adding next: 
+
+- I want to pass the the AWS Access and Secret keys from 1Password to the script so it doesn't require a preconfigured permanent AWS credential file and only stores the temporary keys & token.  
