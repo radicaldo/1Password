@@ -1,4 +1,4 @@
-# AWS CLI MFA Automation for WSLv2
+# AWS CLI MFA Automation for WSLv2 with 1Password CLI
 > This project started due to limitations of 1Password, WSL, and AWS CLI when requiring MFA. Currently 1Password CLI in WSL does not work with plugins due to WSL not having access to Windows Hello Authentication that is required for plugins in the 1Password App.  This script avoids storing 1Password secrets in env variables and automates the process in the same way. 
 
 # Highlight details
