@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# Created 01-18-2024 by radicaldo
 # Edited from this excellent guide: https://www.packetmischief.ca/2023/02/26/how-i-use-mfa-with-the-aws-cli/
 # Tested on:
 # WSL version: 2.0.14.0
