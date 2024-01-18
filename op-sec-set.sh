@@ -3,7 +3,7 @@
 #This requires the second PowerShell file to run first.
 
 # Path to the PowerShell script requires the directory path to have double slahses for escaping syntax in bash
-powershell_script="C:\\Windows\\Path\\To\\Your\\PS\\Script\\ps-op-set.ps1"
+powershell_script="C:\\Windows\\Path\\To\\Your\\PS\\Script\\op-sec-var.ps1"
 
 # Run the PowerShell script
 powershell.exe -ExecutionPolicy Bypass -File "$powershell_script"
