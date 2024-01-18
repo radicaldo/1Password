@@ -10,8 +10,11 @@
 
 
 ## Resources
-1. Microsoft Documentation:
+1. Microsoft Documentation
+
    a) on PowerShell variables - https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-7.4
+ 
    b) Calling applications from WSL - https://learn.microsoft.com/en-us/windows/wsl/filesystems
+
 2. 1Password Documentation on Secret references - https://developer.1password.com/docs/cli/secret-references/
  
