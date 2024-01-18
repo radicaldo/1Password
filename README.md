@@ -19,7 +19,8 @@
       - "Unlock using Windows Hello" enabled
       - "Show Windows Hello prompt automatically" enabled 
 - WSL installed and configured.
-- AWS CLI intalled and configured in WSL Ubuntu with default Access and Secret Keys in your AWS CLI to initiate the script. 
+- AWS CLI intalled and configured in WSL Ubuntu with default Access and Secret Keys in your AWS CLI to initiate the script.
+- In your AWS account your users need to have the mfa required permission applied in IAM.
 
 
 ## Resources
