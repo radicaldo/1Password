@@ -11,6 +11,7 @@
 # Windows version: 10.0.19045.3803 
 # WSL Ubuntu-22.04.3 LTS jammy 
 # 1Password for Windows 8.10.24 (81024035)
+# aws-cli/2.15.10 Python/3.11.6 Linux/5.15.133.1-microsoft-standard-WSL2 exe/x86_64.ubuntu.22
 
 SESSION_DURATION=14400
 
