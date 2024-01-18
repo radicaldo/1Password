@@ -1,8 +1,6 @@
 # Product Name
 > This project started due to limitations of 1Password with WSL AWS CLI when requiring MFA.  
 
-
-One to two paragraph statement about your product and what it does.
 Currently directly calling 1Password Secret References in WSL AWS CLI does not work.  This is a workaround to use a powershell script to temporarily store the secret reference and pass that into a variable that is accessible from WSL Bash. 
 
 Readme is not finished.  
