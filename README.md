@@ -22,6 +22,9 @@
 - AWS CLI intalled and configured in WSL Ubuntu with default Access and Secret Keys in your AWS CLI to initiate the script.
 - In your AWS account your users need to have the mfa required permission applied in IAM.
 
+# Update
+- 1Password-WSL-aws-cli-automation-v2.sh can temporarily pull your access keys from 1 password so you never have to store your more permanent real keys in the AWS CLI Credentials file.
+- Version 1 requires you to have your keys preconfigured in your AWS CLI Credentials file.  (less secure)
 
 ## Resources
 1. Microsoft Documentation
@@ -42,6 +45,3 @@
    - Helpful article for information on the original script.  https://www.packetmischief.ca/2023/02/26/how-i-use-mfa-with-the-aws-cli/
 
 
-Adding next: 
-
-- I want to pass the the AWS Access and Secret keys from 1Password to the script so it doesn't require a preconfigured permanent AWS credential file and only stores the temporary keys & token.  
